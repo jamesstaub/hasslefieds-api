@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150602003321) do
+ActiveRecord::Schema.define(version: 20150602205647) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,7 +31,10 @@ ActiveRecord::Schema.define(version: 20150602003321) do
     t.string   "post_image_content_type"
     t.integer  "post_image_file_size"
     t.datetime "post_image_updated_at"
+    t.integer  "user_id"
   end
+
+  add_index "posts", ["user_id"], name: "index_posts_on_user_id", using: :btree
 
   create_table "replies", force: :cascade do |t|
     t.text     "body"
@@ -48,11 +51,17 @@ ActiveRecord::Schema.define(version: 20150602003321) do
     t.string   "full_name"
     t.string   "email"
     t.string   "username"
-    t.string   "password"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "password_digest"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "token"
+    t.integer  "post_id"
   end
 
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["token"], name: "index_users_on_token", unique: true, using: :btree
+
+  add_foreign_key "posts", "users"
   add_foreign_key "replies", "posts"
   add_foreign_key "replies", "users"
 end

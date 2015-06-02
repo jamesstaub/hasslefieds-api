@@ -1,3 +1,4 @@
+class UsersController < ApplicationController
   # GET /users
   def index
     # all the users
@@ -40,8 +41,11 @@
     head :no_content
   end
 
+
+
   private
    def user_params
     params.require(:user)
-      .permit(:name, :rating, :desc, :length)
+      .permit(:full_name, :email, :username)
   end
+end

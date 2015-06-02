@@ -1,10 +1,23 @@
 Rails.application.routes.draw do
+
+  root 'posts#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   resources  :users, except: [:new, :edit] do
     resources :posts, except: [:new, :edit]
+    resources :replies, except: [:new, :edit]
   end
+
+  resources :posts, except: [:new, :edit] do
+    resources :replies, except: [:new, :edit]
+    # resources :users, except: [:new, :edit]
+  end
+
+  resources :replies, except: [:new, :edit]
+
+
+
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
