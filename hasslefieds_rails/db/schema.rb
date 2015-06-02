@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150531211725) do
+ActiveRecord::Schema.define(version: 20150602003321) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,13 +25,27 @@ ActiveRecord::Schema.define(version: 20150531211725) do
     t.string   "price"
     t.string   "condition"
     t.string   "topic"
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+    t.string   "post_image_file_name"
+    t.string   "post_image_content_type"
+    t.integer  "post_image_file_size"
+    t.datetime "post_image_updated_at"
+  end
+
+  create_table "replies", force: :cascade do |t|
+    t.text     "body"
+    t.integer  "user_id"
+    t.integer  "post_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
+  add_index "replies", ["post_id"], name: "index_replies_on_post_id", using: :btree
+  add_index "replies", ["user_id"], name: "index_replies_on_user_id", using: :btree
+
   create_table "users", force: :cascade do |t|
-    t.string   "first_name"
-    t.string   "last_name"
+    t.string   "full_name"
     t.string   "email"
     t.string   "username"
     t.string   "password"
@@ -39,4 +53,6 @@ ActiveRecord::Schema.define(version: 20150531211725) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "replies", "posts"
+  add_foreign_key "replies", "users"
 end

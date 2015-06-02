@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+@file = Rack::Test::UploadedFile.new(Rails.root + 'james.jpg', 'image/jpg')
+
+Post.create!(post_image: @file)
