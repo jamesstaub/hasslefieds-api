@@ -1,7 +1,7 @@
 class Post < ActiveRecord::Base
-  belongs_to :users
-  has_many :users, through: :replies
-  has_many :replies, through: :users,  dependent: :destroy
+  belongs_to :user
+  has_many :replies, dependent: :destroy
+
 
 
   has_attached_file :post_image,

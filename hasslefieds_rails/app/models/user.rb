@@ -1,8 +1,6 @@
-
 class User < ActiveRecord::Base
-
   has_many :posts, dependent: :destroy
-  has_many :replies, through: :posts
+  has_many :replies
 
   has_secure_password #adds :authenticate to the model
 
