@@ -1,6 +1,8 @@
 class Post < ActiveRecord::Base
-  belongs_to :user
+  belongs_to :users
+  has_many :users, through: :replies
   has_many :replies, through: :users,  dependent: :destroy
+
 
   has_attached_file :post_image,
               :styles => { :large => "510x510#", :medium => "250x250#" },
