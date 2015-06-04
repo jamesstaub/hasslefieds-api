@@ -5,6 +5,12 @@ class ApplicationController < ActionController::Base
   skip_before_action :verify_authenticity_token, if: :json_request?
   force_ssl if: :ssl_configured? # all controller actions must have ssl or else they will error out, EXCEPT in development
 
+  def default_serializer_options
+    {
+      root: false
+    }
+  end
+
   protected
   def json_request?
     request.format.json?

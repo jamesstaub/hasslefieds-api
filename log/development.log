@@ -8223,3 +8223,2058 @@ Started GET "/" for ::1 at 2015-06-03 13:19:10 -0400
 Processing by PostsController#index as HTML
   [1m[35mPost Load (18.9ms)[0m  SELECT "posts".* FROM "posts"
 Completed 200 OK in 115ms (Views: 20.2ms | ActiveRecord: 39.4ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 15:56:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RepliesController#index as HTML
+  [1m[35mReply Load (2.0ms)[0m  SELECT "replies".* FROM "replies"
+Completed 200 OK in 96ms (Views: 7.3ms | ActiveRecord: 20.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 15:56:38 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 46ms (Views: 13.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 15:59:04 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:00:35 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:01:05 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:01:08 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:01:46 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:01:55 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:07:03 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:13:38 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:14:10 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:17:03 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:17:22 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:17:29 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/3" for ::1 at 2015-06-03 16:17:46 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 3]]
+Completed 200 OK in 68ms (Views: 0.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/" for ::1 at 2015-06-03 16:18:56 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:21:28 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:21:28 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:24:49 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:25:16 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:29:25 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:29:31 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/" for ::1 at 2015-06-03 16:31:55 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:33:49 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:34:08 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:34:42 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:35:50 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:36:40 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:37:01 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:41:01 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:42:36 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 16:43:20 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:25:55 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:30:21 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:30:26 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:30:35 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:31:31 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:31:48 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:32:24 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:32:30 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:32:36 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:32:44 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:34:01 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:38:37 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 17:55:00 -0400
+Processing by RepliesController#index as HTML
+  [1m[35mReply Load (0.4ms)[0m  SELECT "replies".* FROM "replies"
+Completed 200 OK in 35ms (Views: 6.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 17:58:47 -0400
+Processing by RepliesController#index as HTML
+  [1m[36mReply Load (0.5ms)[0m  [1mSELECT "replies".* FROM "replies"[0m
+Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 17:58:56 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 30ms (Views: 9.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 18:06:25 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/replies/3" for ::1 at 2015-06-03 18:06:28 -0400
+
+ActionController::RoutingError (No route matches [POST] "/replies/3"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.0ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (155.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (85.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (214.9ms)
+
+
+Started GET "/replies/3" for ::1 at 2015-06-03 18:07:25 -0400
+Processing by RepliesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mReply Load (0.3ms)[0m  SELECT  "replies".* FROM "replies" WHERE "replies"."id" = $1 LIMIT 1  [["id", 3]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 18:07:58 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/replies/2" for ::1 at 2015-06-03 18:08:06 -0400
+
+ActionController::RoutingError (No route matches [POST] "/replies/2"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (129.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (79.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (186.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 18:08:41 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.9ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/replies/" for ::1 at 2015-06-03 18:08:44 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"asfdas", "post_id"=>"2", "user_id"=>"4"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (51.7ms)[0m  INSERT INTO "replies" ("body", "user_id", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["body", "asfdas"], ["user_id", 4], ["post_id", 2], ["created_at", "2015-06-03 22:08:44.927407"], ["updated_at", "2015-06-03 22:08:44.927407"]]
+PG::ForeignKeyViolation: ERROR:  insert or update on table "replies" violates foreign key constraint "fk_rails_256e4b72c5"
+DETAIL:  Key (user_id)=(4) is not present in table "users".
+: INSERT INTO "replies" ("body", "user_id", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 52.0ms)
+
+ActiveRecord::InvalidForeignKey (PG::ForeignKeyViolation: ERROR:  insert or update on table "replies" violates foreign key constraint "fk_rails_256e4b72c5"
+DETAIL:  Key (user_id)=(4) is not present in table "users".
+: INSERT INTO "replies" ("body", "user_id", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"):
+  app/controllers/replies_controller.rb:19:in `create'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (82.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (183.2ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 18:09:18 -0400
+Processing by RepliesController#index as */*
+  Parameters: {"reply"=>{}}
+  [1m[35mReply Load (0.5ms)[0m  SELECT "replies".* FROM "replies"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:09:46 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+------WebKitFormBoundaryGgJQA6x6N8G5YaqL
+Content-Disposition: form-data; name="body"
+
+rrreply bod
+------WebKitFormBoundaryGgJQA6x6N8G5YaqL
+Content-Disposition: form-data; name="post_id"
+
+1
+------WebKitFormBoundaryGgJQA6x6N8G5YaqL--
+
+
+ActionDispatch::ParamsParser::ParseError (795: unexpected token at '------WebKitFormBoundaryGgJQA6x6N8G5YaqL
+Content-Disposition: form-data; name="body"
+
+rrreply bod
+------WebKitFormBoundaryGgJQA6x6N8G5YaqL
+Content-Disposition: form-data; name="post_id"
+
+1
+------WebKitFormBoundaryGgJQA6x6N8G5YaqL--
+'):
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:53:in `rescue in parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:32:in `parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:23:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.3ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:10:07 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+------WebKitFormBoundary0rRQxKVu9kABYL2A
+Content-Disposition: form-data; name="%22body%22"
+
+"rrreply bod"
+------WebKitFormBoundary0rRQxKVu9kABYL2A
+Content-Disposition: form-data; name="post_id"
+
+1
+------WebKitFormBoundary0rRQxKVu9kABYL2A--
+
+
+ActionDispatch::ParamsParser::ParseError (795: unexpected token at '------WebKitFormBoundary0rRQxKVu9kABYL2A
+Content-Disposition: form-data; name="%22body%22"
+
+"rrreply bod"
+------WebKitFormBoundary0rRQxKVu9kABYL2A
+Content-Disposition: form-data; name="post_id"
+
+1
+------WebKitFormBoundary0rRQxKVu9kABYL2A--
+'):
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:53:in `rescue in parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:32:in `parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:23:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.2ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:10:21 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+------WebKitFormBoundaryikIj7ATJQ4wKYBYC
+Content-Disposition: form-data; name="%22body%22"
+
+"rrreply bod"
+------WebKitFormBoundaryikIj7ATJQ4wKYBYC--
+
+
+ActionDispatch::ParamsParser::ParseError (795: unexpected token at '------WebKitFormBoundaryikIj7ATJQ4wKYBYC
+Content-Disposition: form-data; name="%22body%22"
+
+"rrreply bod"
+------WebKitFormBoundaryikIj7ATJQ4wKYBYC--
+'):
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:53:in `rescue in parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:32:in `parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:23:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:12:00 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+------WebKitFormBoundarykIMBxIDrV4DPCvFK
+Content-Disposition: form-data; name="body"
+
+test body
+------WebKitFormBoundarykIMBxIDrV4DPCvFK--
+
+
+ActionDispatch::ParamsParser::ParseError (795: unexpected token at '------WebKitFormBoundarykIMBxIDrV4DPCvFK
+Content-Disposition: form-data; name="body"
+
+test body
+------WebKitFormBoundarykIMBxIDrV4DPCvFK--
+'):
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:53:in `rescue in parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:32:in `parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:23:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (102.3ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started PATCH "/repies" for ::1 at 2015-06-03 18:13:37 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+------WebKitFormBoundaryJ95lHjZIrQd1cGoD
+Content-Disposition: form-data; name="body"
+
+test body
+------WebKitFormBoundaryJ95lHjZIrQd1cGoD--
+
+
+ActionDispatch::ParamsParser::ParseError (795: unexpected token at '------WebKitFormBoundaryJ95lHjZIrQd1cGoD
+Content-Disposition: form-data; name="body"
+
+test body
+------WebKitFormBoundaryJ95lHjZIrQd1cGoD--
+'):
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:53:in `rescue in parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:32:in `parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:23:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/repies" for ::1 at 2015-06-03 18:13:49 -0400
+
+ActionController::RoutingError (No route matches [GET] "/repies"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (124.3ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/replies" for ::1 at 2015-06-03 18:14:02 -0400
+Processing by RepliesController#index as */*
+  Parameters: {"reply"=>{}}
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:14:22 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+------WebKitFormBoundaryMhAqRQ1JwgkNdgqM
+Content-Disposition: form-data; name="body"
+
+paninis
+------WebKitFormBoundaryMhAqRQ1JwgkNdgqM--
+
+
+ActionDispatch::ParamsParser::ParseError (795: unexpected token at '------WebKitFormBoundaryMhAqRQ1JwgkNdgqM
+Content-Disposition: form-data; name="body"
+
+paninis
+------WebKitFormBoundaryMhAqRQ1JwgkNdgqM--
+'):
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:53:in `rescue in parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:32:in `parse_formatted_parameters'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:23:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/replies?body=panini" for ::1 at 2015-06-03 18:15:06 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"body"=>"panini", "reply"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: reply):
+  app/controllers/replies_controller.rb:46:in `reply_params'
+  app/controllers/replies_controller.rb:18:in `create'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.2ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/replies?reply={%22body%22%20:%20%22panininin%22%20}" for ::1 at 2015-06-03 18:15:47 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `permit' for "{\"body\" : \"panininin\" }":String):
+  app/controllers/replies_controller.rb:47:in `reply_params'
+  app/controllers/replies_controller.rb:18:in `create'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.5ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007fb5d3e1eb10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb5d3e1e778 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb5d596b508 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:22:35 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"hijames"}}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "replies" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "hijames"], ["created_at", "2015-06-03 22:22:35.255067"], ["updated_at", "2015-06-03 22:22:35.255067"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 18:22:50 -0400
+Processing by RepliesController#index as */*
+  Parameters: {"reply"=>{}}
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 18:24:23 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 18:24:25 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:24:29 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"hijames"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "replies" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "hijames"], ["created_at", "2015-06-03 22:24:29.745471"], ["updated_at", "2015-06-03 22:24:29.745471"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 201 Created in 3ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 18:25:18 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:25:26 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"shit panini"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "replies" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["body", "shit panini"], ["created_at", "2015-06-03 22:25:26.275502"], ["updated_at", "2015-06-03 22:25:26.275502"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 18:25:30 -0400
+Processing by RepliesController#index as HTML
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 18:26:03 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 18:26:06 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"okokokok"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "replies" ("body", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["body", "okokokok"], ["created_at", "2015-06-03 22:26:06.189846"], ["updated_at", "2015-06-03 22:26:06.189846"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 3ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 19:04:25 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 19:19:36 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 19:19:42 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"replyme baaaae", "post_id"=>"3", "user_id"=>""}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "replyme baaaae"], ["post_id", 3], ["created_at", "2015-06-03 23:19:42.208519"], ["updated_at", "2015-06-03 23:19:42.208519"]]
+  [1m[35m (1168.3ms)[0m  COMMIT
+Completed 201 Created in 1172ms (Views: 0.4ms | ActiveRecord: 1168.8ms)
+
+
+Started GET "/undefined" for ::1 at 2015-06-03 20:11:32 -0400
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (139.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (93.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (204.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:13:04 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:13:50 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:15:26 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:15:54 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:16:23 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:17:30 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:17:37 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:18:54 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:19:07 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:19:27 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:20:14 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:20:33 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:20:46 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:21:51 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:22:18 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:22:54 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:23:22 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:23:54 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:24:48 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:25:22 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:32:02 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 20:32:10 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"reply reply", "post_id"=>"3", "user_id"=>""}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "reply reply"], ["post_id", 3], ["created_at", "2015-06-04 00:32:10.698847"], ["updated_at", "2015-06-04 00:32:10.698847"]]
+  [1m[35m (735.6ms)[0m  COMMIT
+Completed 201 Created in 739ms (Views: 0.5ms | ActiveRecord: 736.2ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 20:32:11 -0400
+Processing by RepliesController#index as */*
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies"[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:36:30 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/replies" for ::1 at 2015-06-03 20:36:36 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"replies"}
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=replies):
+  app/controllers/posts_controller.rb:12:in `show'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (108.6ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (215.5ms)
+
+
+Started GET "/posts/" for ::1 at 2015-06-03 20:36:43 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:58:19 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts/" for ::1 at 2015-06-03 20:58:22 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/" for ::1 at 2015-06-03 20:58:29 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:58:49 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for ::1 at 2015-06-03 20:58:51 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 21ms (Views: 10.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/users" for ::1 at 2015-06-03 20:58:51 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 20:58:54 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:03:05 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (4.3ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.3ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'replies'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:06:07 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 36ms (Views: 10.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:06:07 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:07:15 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 16ms (Views: 9.7ms | ActiveRecord: 2.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.1ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'replies'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (3.0ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:07:48 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 15ms (Views: 9.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:07:49 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:07:49 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:08:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.1ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mReply Load (0.8ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 176ms (Views: 124.0ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:08:57 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 2.7ms)
+
+SyntaxError (/Users/jamesstaub/WDI/hasslefieds/hasslefieds-api/app/serializers/post_serializer.rb:3: syntax error, unexpected ':', expecting keyword_end
+  attributes :id, :title :body, :reply_count, :user
+                          ^
+/Users/jamesstaub/WDI/hasslefieds/hasslefieds-api/app/serializers/post_serializer.rb:3: syntax error, unexpected ',', expecting :: or '[' or '.'
+  attributes :id, :title :body, :reply_count, :user
+                                             ^):
+  app/serializers/post_serializer.rb:3: syntax error, unexpected ':', expecting keyword_end
+  app/serializers/post_serializer.rb:3: syntax error, unexpected ',', expecting :: or '[' or '.'
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.1ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (101.1ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (221.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:09:06 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.4ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 64ms (Views: 52.8ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:19:45 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 101ms (Views: 71.2ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:20:18 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:20:55 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 119ms (Views: 79.8ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:27:42 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.5ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.5ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.5ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 23ms (Views: 19.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:27:55 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:28:17 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 25ms (Views: 21.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:28:20 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.5ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:28:24 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 22ms (Views: 18.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:28:38 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:29:48 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:30:04 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.5ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:30:17 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:30:34 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:30:35 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:34:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.9ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.4ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 211ms (Views: 144.1ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:36:38 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.5ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 25ms (Views: 20.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:37:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.9ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.4ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 238ms (Views: 180.8ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:37:27 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.4ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:41:47 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"beeeeep beeeeep brucy", "post_id"=>"2", "user_id"=>""}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "beeeeep beeeeep brucy"], ["post_id", 2], ["created_at", "2015-06-04 01:41:47.952243"], ["updated_at", "2015-06-04 01:41:47.952243"]]
+  [1m[35m (602.5ms)[0m  COMMIT
+Completed 201 Created in 702ms (Views: 50.4ms | ActiveRecord: 605.6ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 21:41:48 -0400
+Processing by RepliesController#index as */*
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:42:59 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 84ms (Views: 53.2ms | ActiveRecord: 3.7ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:43:11 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"sdfadfafa", "post_id"=>"2"}}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "sdfadfafa"], ["post_id", 2], ["created_at", "2015-06-04 01:43:11.824565"], ["updated_at", "2015-06-04 01:43:11.824565"]]
+  [1m[35m (13.8ms)[0m  COMMIT
+Completed 201 Created in 19ms (Views: 2.2ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/replies" for ::1 at 2015-06-03 21:43:11 -0400
+Processing by RepliesController#index as */*
+  [1m[36mReply Load (0.6ms)[0m  [1mSELECT "replies".* FROM "replies"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:43:24 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:43:30 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"no callback", "post_id"=>"2"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "no callback"], ["post_id", 2], ["created_at", "2015-06-04 01:43:30.778329"], ["updated_at", "2015-06-04 01:43:30.778329"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 201 Created in 6ms (Views: 2.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:43:37 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"no callback", "post_id"=>"2"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "no callback"], ["post_id", 2], ["created_at", "2015-06-04 01:43:37.604368"], ["updated_at", "2015-06-04 01:43:37.604368"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 7ms (Views: 2.7ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:43:37 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"no callback", "post_id"=>"2"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "no callback"], ["post_id", 2], ["created_at", "2015-06-04 01:43:37.873178"], ["updated_at", "2015-06-04 01:43:37.873178"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 201 Created in 6ms (Views: 2.2ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:43:38 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"no callback", "post_id"=>"2"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "no callback"], ["post_id", 2], ["created_at", "2015-06-04 01:43:38.360975"], ["updated_at", "2015-06-04 01:43:38.360975"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 5ms (Views: 1.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:43:38 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"no callback", "post_id"=>"2"}}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "no callback"], ["post_id", 2], ["created_at", "2015-06-04 01:43:38.513198"], ["updated_at", "2015-06-04 01:43:38.513198"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 201 Created in 5ms (Views: 1.9ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:43:38 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"no callback", "post_id"=>"2"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "no callback"], ["post_id", 2], ["created_at", "2015-06-04 01:43:38.675005"], ["updated_at", "2015-06-04 01:43:38.675005"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 6ms (Views: 2.1ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:43:38 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"no callback", "post_id"=>"2"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "no callback"], ["post_id", 2], ["created_at", "2015-06-04 01:43:38.819460"], ["updated_at", "2015-06-04 01:43:38.819460"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 201 Created in 6ms (Views: 2.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:44:00 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:44:08 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"hello?", "post_id"=>"2"}}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "hello?"], ["post_id", 2], ["created_at", "2015-06-04 01:44:08.420086"], ["updated_at", "2015-06-04 01:44:08.420086"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 201 Created in 6ms (Views: 2.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:45:10 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:45:14 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"aaaa", "post_id"=>"2"}}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "aaaa"], ["post_id", 2], ["created_at", "2015-06-04 01:45:14.689989"], ["updated_at", "2015-06-04 01:45:14.689989"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 201 Created in 6ms (Views: 2.0ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:45:30 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"aaaa", "post_id"=>"2"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "aaaa"], ["post_id", 2], ["created_at", "2015-06-04 01:45:30.545064"], ["updated_at", "2015-06-04 01:45:30.545064"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 6ms (Views: 2.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:45:44 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 55ms (Views: 52.1ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:45:48 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"postyreply", "post_id"=>"1"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "postyreply"], ["post_id", 1], ["created_at", "2015-06-04 01:45:48.726256"], ["updated_at", "2015-06-04 01:45:48.726256"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 6ms (Views: 2.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:45:57 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"postyreply", "post_id"=>"1"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "postyreply"], ["post_id", 1], ["created_at", "2015-06-04 01:45:57.385354"], ["updated_at", "2015-06-04 01:45:57.385354"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 201 Created in 6ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:45:59 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:46:28 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 75ms (Views: 72.5ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:46:32 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"do it", "post_id"=>"1"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "do it"], ["post_id", 1], ["created_at", "2015-06-04 01:46:32.226867"], ["updated_at", "2015-06-04 01:46:32.226867"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 6ms (Views: 2.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:46:32 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 56ms (Views: 53.1ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 21:46:38 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"checkkk", "post_id"=>"1"}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "checkkk"], ["post_id", 1], ["created_at", "2015-06-04 01:46:38.131862"], ["updated_at", "2015-06-04 01:46:38.131862"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 5ms (Views: 2.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:46:38 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 21:55:45 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 56ms (Views: 52.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 22:00:17 -0400
+Processing by PostsController#index as */*
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 3]]
+Completed 200 OK in 68ms (Views: 65.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 22:13:16 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/replies" for ::1 at 2015-06-03 22:13:23 -0400
+Processing by RepliesController#create as */*
+  Parameters: {"reply"=>{"body"=>"newestbb", "post_id"=>"1"}}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "replies" ("body", "post_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "newestbb"], ["post_id", 1], ["created_at", "2015-06-04 02:13:23.686278"], ["updated_at", "2015-06-04 02:13:23.686278"]]
+  [1m[35m (691.2ms)[0m  COMMIT
+Completed 201 Created in 697ms (Views: 2.9ms | ActiveRecord: 691.6ms)
+
+
+Started GET "/posts" for ::1 at 2015-06-03 22:13:24 -0400
+Processing by PostsController#index as */*
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.4ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1  [["post_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = $1[0m  [["post_id", 3]]
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 2.2ms)

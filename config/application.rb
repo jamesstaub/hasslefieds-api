@@ -33,11 +33,11 @@ module HasslefiedsRails
     config.active_record.raise_in_transactional_callbacks = true
 
 # the  ActionDispatch::Static part is key to fix the cors problem!
-    # config.middleware.use Rack::Cors do
-    #   allow do
-    #     origins '*'
-    #     resource '*', headers: :any, methods: [:get, :post, :patch, :put, :delete, :options]
-    #   end
-    # end
+    config.middleware.use Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', headers: :any, methods: [:get, :post, :patch, :put, :delete, :options]
+      end
+    end
   end
 end
