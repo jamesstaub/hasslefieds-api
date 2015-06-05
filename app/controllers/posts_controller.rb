@@ -1,4 +1,4 @@
-class PostsController < ApplicationController
+class PostsController < OpenReadController
   # GET /posts
   def index
     # all the posts
@@ -15,12 +15,13 @@ class PostsController < ApplicationController
 
   # POST /posts
   def create
-    @post = Post.new(post_params)
+
+    @post = current_user.posts.new(post_params)
     if @post.save
       render json: @post, status: :created # location: posts_url
     else
       render json: @post.errors, status: :unprocessable_entity
-     end
+    end
   end
 
   # PATCH /posts/:id
@@ -36,14 +37,20 @@ class PostsController < ApplicationController
   # DELETE /posts/:id
   def destroy
     @post = Post.find(params[:id])
-    @post.destroy
+    if @post.user = current_user
+      @post.destroy
+    else
+      render json: @post.errors, status: :unprocessable_entity
+    end
+
+
 
     head :no_content
   end
 
   private
    def post_params
-    params.require(:post)
+    params
       .permit(:title, :body, :start_date, :end_date, :category, :price, :condition)
   end
 end

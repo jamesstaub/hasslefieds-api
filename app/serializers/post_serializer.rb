@@ -18,5 +18,8 @@ class PostSerializer < ActiveModel::Serializer
   end
 
 
+  def imgurl
+# concat amazon url with image file name
+  end
 
 end

@@ -1,6 +1,6 @@
 class OpenReadController < ProtectedController
-  skip_before_action :authenticate, if: :read_action?
-  before_action :check_user
+skip_before_action :authenticate, if: :read_action?
+before_action :check_user
 
   private
 
@@ -11,7 +11,6 @@ class OpenReadController < ProtectedController
         token = auth_header.split('=')[1].strip
         set_current_user token
       end
-
     end
   end
 
