@@ -27,7 +27,6 @@ class User < ActiveRecord::Base
 # this will invalid an existing users token and creaete a new one
   def new_token
     update_columns(token: set_token, updated_at: Time.current)
-
   end
 
 # expire old token every day
