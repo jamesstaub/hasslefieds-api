@@ -8,6 +8,7 @@
 
 Post.destroy_all
 User.destroy_all
+Reply.destroy_all
 
 
 @file = Rack::Test::UploadedFile.new(Rails.root + 'james.jpg', 'image/jpg')
@@ -31,3 +32,6 @@ end
 dummy = User.first.id
 
 Post.create!(title:"test post please ignore.", body:"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and", post_image: @file, user_id: dummy )
+
+
+

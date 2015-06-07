@@ -1,6 +1,6 @@
 class PostSerializer < ActiveModel::Serializer
   #explicityly list the resource attributes we want to expose via our API
-  attributes :id, :title, :body, :reply_count, :user, :start_date, :end_date
+  attributes :id, :title, :body, :reply_count, :user, :start_date, :end_date, :imgurl
   # this will exclude the date created columns from our api
 
   has_many :replies
@@ -13,9 +13,9 @@ class PostSerializer < ActiveModel::Serializer
     object.replies.count
   end
 
-  def can_delete
-    object.user == current_user
-  end
+  # def can_delete
+  #   object.user == current_user
+  # end
 
 
   def imgurl

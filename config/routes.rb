@@ -19,9 +19,6 @@ Rails.application.routes.draw do
 
   resources :replies, except: [:new, :edit]
 
-
-
-
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

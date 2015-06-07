@@ -15,7 +15,6 @@ class PostsController < OpenReadController
 
   # POST /posts
   def create
-
     @post = current_user.posts.new(post_params)
     if @post.save
       render json: @post, status: :created # location: posts_url
@@ -43,14 +42,19 @@ class PostsController < OpenReadController
       render json: @post.errors, status: :unprocessable_entity
     end
 
-
-
     head :no_content
   end
 
   private
-   def post_params
-    params
+  def post_params
+    params.require(:post)
       .permit(:title, :body, :start_date, :end_date, :category, :price, :condition)
   end
+
+
+# when the new ajax is implemented with images
+  #  def post_params
+  #   params
+  #     .permit(:title, :body, :start_date, :end_date, :category, :price, :condition)
+  # end
 end

@@ -1,4 +1,4 @@
-class RepliesController < ApplicationController
+class RepliesController < OpenReadController
   # GET /replies
   def index
     # all the replies
@@ -15,9 +15,9 @@ class RepliesController < ApplicationController
 
   # POST /replies
   def create
-    @reply = Reply.new(reply_params)
+    @reply = current_user.replies.new(reply_params)
     if @reply.save
-      render json: @reply, status: :created, location: replies_url
+      render json: @reply, status: :created #, location: replies_url
     else
       render json: @reply.errors, status: :unprocessable_entity
      end
