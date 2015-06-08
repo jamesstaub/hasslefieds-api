@@ -26,3 +26,5 @@ My biggest challenges in this app were features surrounding user logins. With th
 
 In particular, attempting to access controller variables from within the rails serializers, which was my initial approach for building user-specific templates, cost a lot of time and ultimately was not achieved. Instead I was able to move forward by storing user information in the browser's localStorage, and comparing IDs to corresponding data attributes on the posts, replies and delete buttons.
 
+
+http://jamesstaub.github.io/hasslefieds-app/
